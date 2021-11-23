@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181306492486",
+    "project_id": "luver-d04ef",
+    "storage_bucket": "luver-d04ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181306492486:android:aee108acd866d0d0082c47",
+        "android_client_info": {
+          "package_name": "com.app.luver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181306492486-754r3cc6bktbgrodfuaepnfk34n0lba7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.luver",
+            "certificate_hash": "86f2d9380062e1c41744f078afd7da2a54914101"
+          }
+        },
+        {
+          "client_id": "181306492486-hbgu0o6m3k3lg7vo8vh4rlqljmhu39rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcx-6J4d_-ddY0VjdN9HuuHamg3hL95AQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181306492486-hbgu0o6m3k3lg7vo8vh4rlqljmhu39rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

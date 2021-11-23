@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="545dp"
+        android:layout_margin="3dp"
+        android:orientation="vertical">
+
+        <!--image view for question cover-->
+
+        <!--text view for our question number-->
+        <ImageView
+            android:id="@+id/idIVCover"
+            android:layout_width="match_parent"
+            android:layout_height="301dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/idTVQuestionNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Question Num"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+        </LinearLayout>
+
+        <!--text view for question-->
+        <TextView
+            android:id="@+id/idTVQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:text="Question"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
