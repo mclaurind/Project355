@@ -41,8 +41,10 @@ dependencies {
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.firebase:firebase-analytics:20.0.0'
+    //newly added
     implementation 'com.google.firebase:firebase-auth:21.0.1'
     implementation 'com.google.firebase:firebase-database:20.0.2'
 }
 
+//always last after dependencies
 apply plugin: 'com.google.gms.google-services'
